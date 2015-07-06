@@ -1,0 +1,81 @@
+/* Fonts */
+@font-face {
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Styles */
+body {
+	color: #312D30;
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+	background: #F1F1F1;
+}
+
+a {
+	color: #312D30;
+}
+
+a:hover {
+	color: #F552CC;
+	text-decoration: none;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.headline {
+	padding-top: 40px;
+}
+
+hr {
+	border-top: 3px solid #312D30;
+}
+
+h2 {
+	padding-left: 20px;
+	font-size: 3.2em;
+	font-weight: normal;
+}
+
+/* Featured Marnie images */
+a.features-wrapper, a.features-wrapper span {
+	display: inline-block;
+	text-align: center;
+}
+
+span.feature-title {
+	margin-left: none;
+	padding-top: 10px;
+	font-size: 2em;
+}
+
+span.feature-link {
+	font-size: 1em;
+}
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+	.logo, .headline {
+		text-align: center;
+	}
+
+	h2 {
+		margin-top: 30px;
+	}
+
+	a.feature-wrapper, h2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	a.features-wrapper {
+		margin-bottom: 30px;
+	}
+
+	a.features-wrapper img {
+		display: inline-block;
+	}
+}
